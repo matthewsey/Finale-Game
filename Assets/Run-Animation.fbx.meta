@@ -1,0 +1,291 @@
+fileFormatVersion: 2
+guid: 3cd9b6705ba1de84b894b002ca0028b3
+timeCreated: 1494348126
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Chest
+    100004: Cube
+    100006: Head
+    100008: Head_end
+    100010: L_Ankle
+    100012: L_Ankle_end
+    100014: L_Arm IK
+    100016: L_Arm IK_end
+    100018: L_Arm1
+    100020: L_Arm2
+    100022: L_Elbow
+    100024: L_Elbow_end
+    100026: L_Foot
+    100028: L_Foot_end
+    100030: L_Hand
+    100032: L_Hand_end
+    100034: L_Hip
+    100036: L_Hip_end
+    100038: L_Leg1
+    100040: L_Leg2
+    100042: L_Leg2_end
+    100044: L_Leg_IK
+    100046: L_Shoulder
+    100048: Neck
+    100050: R_Ankle
+    100052: R_Ankle_end
+    100054: R_Arm IK
+    100056: R_Arm IK_end
+    100058: R_Arm1
+    100060: R_Arm2
+    100062: R_Elbow
+    100064: R_Elbow_end
+    100066: R_Foot
+    100068: R_Foot_end
+    100070: R_Hand
+    100072: R_Hand_end
+    100074: R_Hip
+    100076: R_Hip_end
+    100078: R_Leg1
+    100080: R_Leg2
+    100082: R_Leg2_end
+    100084: R_Leg_IK
+    100086: R_Shoulder
+    100088: //RootNode
+    100090: Stomach
+    400000: Armature
+    400002: Chest
+    400004: Cube
+    400006: Head
+    400008: Head_end
+    400010: L_Ankle
+    400012: L_Ankle_end
+    400014: L_Arm IK
+    400016: L_Arm IK_end
+    400018: L_Arm1
+    400020: L_Arm2
+    400022: L_Elbow
+    400024: L_Elbow_end
+    400026: L_Foot
+    400028: L_Foot_end
+    400030: L_Hand
+    400032: L_Hand_end
+    400034: L_Hip
+    400036: L_Hip_end
+    400038: L_Leg1
+    400040: L_Leg2
+    400042: L_Leg2_end
+    400044: L_Leg_IK
+    400046: L_Shoulder
+    400048: Neck
+    400050: R_Ankle
+    400052: R_Ankle_end
+    400054: R_Arm IK
+    400056: R_Arm IK_end
+    400058: R_Arm1
+    400060: R_Arm2
+    400062: R_Elbow
+    400064: R_Elbow_end
+    400066: R_Foot
+    400068: R_Foot_end
+    400070: R_Hand
+    400072: R_Hand_end
+    400074: R_Hip
+    400076: R_Hip_end
+    400078: R_Leg1
+    400080: R_Leg2
+    400082: R_Leg2_end
+    400084: R_Leg_IK
+    400086: R_Shoulder
+    400088: //RootNode
+    400090: Stomach
+    4300000: Cube
+    7400000: Armature|ArmatureAction
+    9500000: //RootNode
+    13700000: Cube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|ArmatureAction
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/L_Ankle
+        weight: 1
+      - path: Armature/L_Ankle/L_Ankle_end
+        weight: 1
+      - path: Armature/L_Arm IK
+        weight: 1
+      - path: Armature/L_Arm IK/L_Arm IK_end
+        weight: 1
+      - path: Armature/L_Elbow
+        weight: 1
+      - path: Armature/L_Elbow/L_Elbow_end
+        weight: 1
+      - path: Armature/L_Leg_IK
+        weight: 1
+      - path: Armature/L_Leg_IK/L_Foot
+        weight: 1
+      - path: Armature/L_Leg_IK/L_Foot/L_Foot_end
+        weight: 1
+      - path: Armature/R_Ankle
+        weight: 1
+      - path: Armature/R_Ankle/R_Ankle_end
+        weight: 1
+      - path: Armature/R_Arm IK
+        weight: 1
+      - path: Armature/R_Arm IK/R_Arm IK_end
+        weight: 1
+      - path: Armature/R_Elbow
+        weight: 1
+      - path: Armature/R_Elbow/R_Elbow_end
+        weight: 1
+      - path: Armature/R_Leg_IK
+        weight: 1
+      - path: Armature/R_Leg_IK/R_Foot
+        weight: 1
+      - path: Armature/R_Leg_IK/R_Foot/R_Foot_end
+        weight: 1
+      - path: Armature/Stomach
+        weight: 1
+      - path: Armature/Stomach/Chest
+        weight: 1
+      - path: Armature/Stomach/Chest/L_Shoulder
+        weight: 1
+      - path: Armature/Stomach/Chest/L_Shoulder/L_Arm1
+        weight: 1
+      - path: Armature/Stomach/Chest/L_Shoulder/L_Arm1/L_Arm2
+        weight: 1
+      - path: Armature/Stomach/Chest/L_Shoulder/L_Arm1/L_Arm2/L_Hand
+        weight: 1
+      - path: Armature/Stomach/Chest/L_Shoulder/L_Arm1/L_Arm2/L_Hand/L_Hand_end
+        weight: 1
+      - path: Armature/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Stomach/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Stomach/Chest/R_Shoulder
+        weight: 1
+      - path: Armature/Stomach/Chest/R_Shoulder/R_Arm1
+        weight: 1
+      - path: Armature/Stomach/Chest/R_Shoulder/R_Arm1/R_Arm2
+        weight: 1
+      - path: Armature/Stomach/Chest/R_Shoulder/R_Arm1/R_Arm2/R_Hand
+        weight: 1
+      - path: Armature/Stomach/Chest/R_Shoulder/R_Arm1/R_Arm2/R_Hand/R_Hand_end
+        weight: 1
+      - path: Armature/Stomach/L_Hip
+        weight: 1
+      - path: Armature/Stomach/L_Hip/L_Hip_end
+        weight: 1
+      - path: Armature/Stomach/L_Leg1
+        weight: 1
+      - path: Armature/Stomach/L_Leg1/L_Leg2
+        weight: 1
+      - path: Armature/Stomach/L_Leg1/L_Leg2/L_Leg2_end
+        weight: 1
+      - path: Armature/Stomach/R_Hip
+        weight: 1
+      - path: Armature/Stomach/R_Hip/R_Hip_end
+        weight: 1
+      - path: Armature/Stomach/R_Leg1
+        weight: 1
+      - path: Armature/Stomach/R_Leg1/R_Leg2
+        weight: 1
+      - path: Armature/Stomach/R_Leg1/R_Leg2/R_Leg2_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
