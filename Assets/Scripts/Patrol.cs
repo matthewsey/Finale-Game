@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Patrol : NPC {
 	public Transform[] patrolPoints;
@@ -14,6 +15,7 @@ public class Patrol : NPC {
 
 	bool isAwareOfPlayer = false;
     bool isAlive = true;
+    static int numOfKills = 0;
     
 
 	// Use this for initialization
@@ -33,11 +35,20 @@ public class Patrol : NPC {
 		}
     }
 
+    public void EndGame() {
+        if (numOfKills == 1) {
+            SceneManager.LoadScene("TestEnding");
+        }
+    }
+
+
     public void Die() {
 
         m_animator.SetTrigger("Die");
         isAlive = false;
+        numOfKills += 1;
         Destroy(gameObject,2.5f);
+        EndGame();
     }
 
 	void Walking () {
