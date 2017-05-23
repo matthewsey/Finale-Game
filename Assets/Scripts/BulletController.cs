@@ -6,10 +6,10 @@ using UnityEngine.SceneManagement;
 public class BulletController : MonoBehaviour {
 
     //the bullet speed
-    protected float speed = 15f;
+    protected float speed = 55f;
 
     //the bullet's life span
-    protected float lifeSpan = 3f;
+    protected float lifeSpan = 6f;
 
     //a reference to the bullet's physics component
     protected Rigidbody _rigibody;
@@ -51,16 +51,14 @@ public class BulletController : MonoBehaviour {
     void OnCollisionEnter (Collision c){
 
         //if the enemy is hit kil them
-        if (c.gameObject.tag == "Enemy"){
+		if (c.gameObject.tag == "soldier"){
             Destroy(c.gameObject);
+
         }
 
-        //if the player is hit, game over
-        if (c.gameObject.tag == "Player"){
-            SceneManager.LoadScene("GameOver Scene");
-        }
 
-        Destroy(gameObject);
+
+     
 
     }
 

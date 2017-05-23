@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\DayNightController.cs" />
      <Compile Include="Assets\Scripts\NPC.cs" />
      <Compile Include="Assets\Scripts\Patrol.cs" />
+     <Compile Include="Assets\Scripts\Scope.cs" />
      <Compile Include="Assets\Scripts\ShootingController.cs" />
      <Compile Include="Assets\Scripts\TimerController.cs" />
      <Compile Include="Assets\Scripts\camMouseLook.cs" />
