@@ -14,6 +14,8 @@ public class BulletController : MonoBehaviour {
     //a reference to the bullet's physics component
     protected Rigidbody _rigibody;
 
+    bool isAlive = true;
+
     //when the script wakes up
     void Awake (){
 
@@ -47,20 +49,23 @@ public class BulletController : MonoBehaviour {
 
     }
 
+
     //when the bullet collides with anything, it is removed from play
     void OnCollisionEnter (Collision c){
+		Destroy (gameObject);
 
         //if the enemy is hit kil them
 		if (c.gameObject.tag == "soldier"){
-            Destroy(c.gameObject);
-
+            c.gameObject.GetComponent<Patrol>().Die();
         }
 
+       
 
 
-     
+
 
     }
+    
 
     }
 

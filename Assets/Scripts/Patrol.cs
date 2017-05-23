@@ -13,6 +13,8 @@ public class Patrol : NPC {
 	float currentPauseTimer;
 
 	bool isAwareOfPlayer = false;
+    bool isAlive = true;
+    
 
 	// Use this for initialization
 	// The enemy will have patrolpoint to move from one point to another one when the game is switched on
@@ -26,12 +28,17 @@ public class Patrol : NPC {
 	// Update is called once per frame
 	void Update () {
 
-		if (!isAwareOfPlayer) {
+		if (!isAwareOfPlayer && isAlive) {
 			Walking ();
 		}
+    }
 
-	}
+    public void Die() {
 
+        m_animator.SetTrigger("Die");
+        isAlive = false;
+        Destroy(gameObject,2.5f);
+    }
 
 	void Walking () {
 
@@ -67,6 +74,10 @@ public class Patrol : NPC {
 			transform.position = Vector3.MoveTowards (transform.position, patrolPoints [currentPoint].position, moveSpeed * Time.deltaTime);
 
 		}
+
+        if (isAlive == false) {
+            Die();
+        }
 
 
 	}

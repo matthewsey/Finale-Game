@@ -29,7 +29,7 @@ public class ShootingController : MonoBehaviour {
     void Update(){
 
         //shoot when the player presses space
-        if (!autoFire && Input.GetKeyDown (KeyCode.Space) )
+        if (!autoFire && Input.GetKeyDown (KeyCode.Mouse0) )
         {
             Shoot();
         }
